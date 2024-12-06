@@ -1,0 +1,57 @@
+#Education{
+    background-color: #031022;
+    padding: 2lvw;
+    width: 95.8%;
+    min-height: max-content;
+    gap:5lvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#Education span{
+    
+    color:#091C20;
+}
+.content-cards{
+    margin: 5vw;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:space-evenly;   
+    width: 100%;
+    font-size: 1.5vw;
+    gap: 20px;
+}
+.content-cards div{
+    background-color: #FDFDFF; 
+    color: #F7C116;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:  5px;
+    /*Extra*/
+    transition-delay: .1s; 
+    border:2px solid #FFB200;
+    width: 35vw;
+    min-width: fit-content;
+
+}
+.content-cards img{
+    height: 20vw;
+}
+.content-cards div:hover{
+    /* transform: scale(1.02); */
+    transform: translate(-15px,-20px);
+    box-shadow:
+     
+    15px 20px  #FFB200,
+     2px 2px 50px #B31312;
+   
+}
+table{
+    padding: 20px;
+}

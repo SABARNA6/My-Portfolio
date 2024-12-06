@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "young-serif";
+    src: url('./font/young-serif/YoungSerif-Regular.ttf');
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url('./font/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+body{
+    margin:0;
+    background-color:#161414;
+    font: small-caps bold 1.5vw cursive;
+    
+}
+.nav-bar a{
+    width: fit-content;
+    max-height: fit-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    /* regarding text */
+    text-decoration: none;
+    color: #AC2A2A;
+
+}
+.nav-bar{
+    height:fit-content;
+    padding: 5px;
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    margin-right: 6lvw      ;
+    margin-left: 6lvw;
+    
+}
+
+.nav-bar a:hover{
+    color: rgb(221, 157, 60)    ;
+    background-color:rgba(221, 157, 60, 0.078);
+    text-decoration: underline;
+    text-underline-offset: 1.3vw;
+    text-decoration-thickness: 0.2rem;
+    /* border */
+}
+
+.main-flex{
+    height: auto;
+    margin: 5vw;
+    /* border: solid black 2px; */
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+.name-pad{
+    color:rgb(255, 255, 255);
+    font: italic small-caps bold 3vw cursive;
+    border-radius:10px;
+    /* flex */
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    align-items: flex-start;
+    justify-content: center;    
+}
+#hello{
+    color:#ffd6be ;
+    text-shadow:
+    0 0 17px #5B9DA9,
+    0 0 1px #ffffff;
+}
+#myname{
+    color:#B31312;
+    font: italic small-caps bold 3vw/2 cursive;
+}
+#sub-name{
+    color:#FFB200;
+}
+#discription{
+    font: italic small-caps bold 1.6vw/2 cursive;
+    color:#fbdbab;
+    text-shadow:
+    0 0 17px #5B9DA9,
+    0 0 12px #066c64;
+}
+#name{
+    margin-right:auto;
+}
+#my-photo{
+    height:30lvw;
+    width: 30lvw;
+    opacity: 85%;
+   border-radius: 5px;
+
+   background-image: url('./image/myself.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.tool{
+    
+    position: relative;
+    top:0;  
+}
