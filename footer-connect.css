@@ -1,0 +1,47 @@
+svg{
+    width: 2vw;
+    fill:#FFB200;
+    transition-delay: .1s; 
+}
+.center-self{
+    align-self: center;
+    padding:20px;
+}
+#Lets-connect{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.icon-grp{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+}
+.icon-grp span{
+    width: 2vw;
+    height: 2vw;
+    padding :1vw;
+    margin: 2vw;
+    border-radius: 8vw;
+    transition-delay: .1s; 
+    border:2px solid #FFB200;
+}
+.icon-grp span:hover{
+transform:scale(1.05);
+ background-color:#FFB200; 
+ border-color: #B31312;
+   & svg{
+    fill:#B31312;
+   } 
+}
+
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: fit-content;
+}

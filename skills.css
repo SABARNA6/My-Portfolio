@@ -1,0 +1,44 @@
+
+#Skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:6lvw;
+    padding: 5lvw;
+    background-color: #293336;
+}
+.mySkill
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:5lvw;
+
+}
+.mySkill img{
+    height: 3rem;
+    background-color: aliceblue;
+    padding: 1vw;
+    border-radius: 1lvw;
+    transition-delay: .2s; 
+    border:2px solid #FFB200;
+    min-width: fit-content;
+    transition-duration: .8s;
+}
+.mySkill img:hover{
+    transform: scale(1.02);
+    box-shadow:0 0 120px #ff5100; 
+}
+
+#Works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:6lvw;
+    padding: 5lvw;
+    background-color: #293336;
+}
