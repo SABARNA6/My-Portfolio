@@ -81,3 +81,11 @@
      2px 2px 50px #248474;
    
 }
+.Copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5lvh;
+    background-color: #293336;
+    color: bisque;
+}
