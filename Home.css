@@ -10,7 +10,7 @@
 body{
     margin:0;
     background-color:#161414;
-    font: small-caps bold 1.5vw ;
+    font: 'small-caps' bold 1.5vw 'Outfit' ;
     
 }
 .nav-bar a{
