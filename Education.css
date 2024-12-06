@@ -1,4 +1,4 @@
-#Education{
+.Education{
     background-color: #031022;
     padding: 2lvw;
     width: 95.8%;
@@ -9,7 +9,7 @@
     justify-content: flex-start;
     align-items: center;
 }
-#Education span{
+.Education span{
     
     color:#091C20;
 }
