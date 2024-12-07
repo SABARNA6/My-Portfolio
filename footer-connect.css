@@ -2,6 +2,7 @@ svg{
     width: 2vw;
     fill:#FFB200;
     transition-delay: .1s; 
+    align-self: start;
 }
 .center-self{
     align-self: center;

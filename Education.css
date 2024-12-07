@@ -36,7 +36,8 @@
     /*Extra*/
     transition-delay: .1s; 
     border:2px solid #FFB200;
-    width: 35vw;
+    padding: 2lvw;
+    width: 20vw;
     min-width: fit-content;
 
 }
